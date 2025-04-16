@@ -1,0 +1,16 @@
+# environment.yml (Anaconda)
+name: code_agent
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyterlab
+  - streamlit
+  - pip:
+    - smolagents
+    - transformers
+    - huggingface-hub
+    - black
+    - pylint
